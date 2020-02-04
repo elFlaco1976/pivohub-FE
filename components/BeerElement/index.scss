@@ -1,0 +1,44 @@
+.item-wrap {
+  margin: 10px;
+  width: 138px;
+  position: relative;
+
+  .item-image-container {
+    width: 138px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+
+    .item-image {
+      width: 100%;
+      cursor: pointer;
+      margin: auto;
+    }
+
+    .item-image-metadata {
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+
+      .item-score {
+        background-color: black;
+        color: white;
+        border-radius: 10%;
+        text-align: right;
+        width: 25%;
+        font-size: 12px;
+        margin: 0 5px;
+        border-color: white;
+        border-style: solid;
+        border-width: 0.5px;
+      }
+    }
+  }
+}
+

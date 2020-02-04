@@ -1,0 +1,19 @@
+.see-more-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.see-more-button {
+  font-family: inherit;
+  font-size: 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5%;
+  background-color: rgba(0,0,0,0);
+  color: #f19953;
+  border-color: #f19953;
+  padding: 10px;
+  width: 100px;
+}

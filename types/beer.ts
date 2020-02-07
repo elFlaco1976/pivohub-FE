@@ -20,5 +20,5 @@ export default class Beer {
 
   createdAt: Date = new Date();
 
-  score? = "";
+  score? = 0;
 }
